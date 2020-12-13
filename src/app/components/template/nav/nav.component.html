@@ -1,0 +1,21 @@
+<mat-sidenav-container class="container mat-elevation-x15">
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="create-user">
+                <i class="material-icons">
+                    person_add
+                </i>
+                Cadastro de Usuário
+            </a>
+            <a mat-list-item routerLink="/">
+                <i class="material-icons">
+                    group
+                </i>
+                Usuários
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
